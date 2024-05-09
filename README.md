@@ -20,3 +20,9 @@ I built this website to document my skills and to have it readily available for 
 - HTML
 - CSS
 - JavaScript
+- Chatgpt/AI
+
+## Credits
+- How to Web Dev link: https://youtu.be/Md7pEE3nxzg?si=KXrVlZPfGx4gxVjU
+- Sytnax Studio link: https://youtu.be/Md7pEE3nxzg?si=GuY2ScNjEVFDgmXL
+- Codehal link: https://youtu.be/sQoiM7i5Nqc?si=AnSFI7Yd5qavatHl
