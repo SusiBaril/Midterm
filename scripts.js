@@ -1,3 +1,4 @@
+//Navbar hover
 let menuIcon = document.querySelector('#menu-icon');
 let navbars = document.querySelector('.navbars');
 
@@ -7,7 +8,7 @@ menuIcon.onclick = () =>{
 }
 
 
-
+//Nav bar toggle
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('nav a');
 
@@ -26,3 +27,13 @@ window.onscroll = () => {
         }
     });
 };
+
+//alert that the message is sent
+function sendMessage() {
+    var email = document.getElementById("email").value;
+    var subject = document.getElementById("subject").value;
+    var message = document.getElementById("message").value;
+    setTimeout(function() {
+      alert("Message sent!");
+    }, 1000);
+  }
