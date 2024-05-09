@@ -222,7 +222,7 @@ section{
 }
 
 /* Media query for mobile screens */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .home {
     flex-direction: column-reverse; /* Reverse the order on mobile screens */
   }
@@ -453,7 +453,7 @@ section{
 }
 
 /* Media query for smaller screens */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .bar {
     width: 100%;
   }
@@ -712,13 +712,13 @@ section{
   background-color: #6de46d;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 100px){
   html{
     font-size: 55%;
   }
 }
 
-@media(max-width: 991px){
+@media(max-width: 900px){
   .header{
     padding:2 rem 4%;
   }
@@ -733,7 +733,7 @@ section{
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .header {
     background-color: rgba(255, 255, 255, 0);
   }
