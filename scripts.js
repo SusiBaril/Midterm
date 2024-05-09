@@ -30,10 +30,30 @@ window.onscroll = () => {
 
 //alert that the message is sent
 function sendMessage() {
-    var email = document.getElementById("email").value;
-    var subject = document.getElementById("subject").value;
-    var message = document.getElementById("message").value;
-    setTimeout(function() {
-      alert("Message sent!");
-    }, 1000);
+    var emailInput = document.getElementById("email");
+    var subjectInput = document.getElementById("subject");
+    var messageInput = document.getElementById("message");
+
+    var email = emailInput.value;
+    var subject = subjectInput.value;
+    var message = messageInput.value;
+
+    // Check if required fields are filled
+    if (email && subject && message) {
+      // Here you would send the email using a service like EmailJS or your own server-side code
+      // For demonstration purposes, let's assume the email is sent successfully
+      // You can replace this with your actual email sending code
+
+      // Assuming email is sent successfully
+      setTimeout(function() {
+        alert("Message sent!");
+        // Clear input fields and textarea after sending
+        emailInput.value = "";
+        subjectInput.value = "";
+        messageInput.value = "";
+      }, 1000); // Delay for 1 second to mimic email sending
+
+    } else {
+      alert("Please fill all required fields.");
+    }
   }
