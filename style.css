@@ -599,7 +599,7 @@ section{
   }
 }
 
-.contact {
+.contact {  
   justify-content: center;
   align-items: center;
 }
@@ -676,16 +676,17 @@ section{
 }
 
 @media screen and (max-width: 900px) {
+
   .container1 {
     padding: 0 5px;
-    display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
   }
 
   .card {
     width: 70%;
-    margin: auto;
+    margin: 0 auto;
   }
 
 
@@ -700,6 +701,20 @@ section{
 
   .btn1 {
     padding: 8px 16px;
+  }
+}
+
+@media screen and (max-width: 550px){
+  .container1 {
+    padding: 0 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .card {
+    width: 60%;
+    margin: 0 0;
   }
 }
 
