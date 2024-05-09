@@ -21,6 +21,7 @@ I built this website to document my skills and to have it readily available for 
 - CSS
 - JavaScript
 - Chatgpt/AI
+- boxicon
 
 ## Credits
 - How to Web Dev link: https://youtu.be/Md7pEE3nxzg?si=KXrVlZPfGx4gxVjU
