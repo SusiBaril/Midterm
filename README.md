@@ -1,7 +1,7 @@
 # Personal Website
 
-#Rosales,Andrew Keegan M.
-#INF221
+##Rosales,Andrew Keegan M.
+##INF221
 
 ## Description
 
