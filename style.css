@@ -599,12 +599,16 @@ section{
   }
 }
 
-.contact {
-  display: flex;
+.contact {  
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
+
+.container1 {
+  width: 630px;
+  margin: 0 auto;
+}
+
 
 .card {
   width: 600px; /* Adjust width as needed */
@@ -696,12 +700,8 @@ section{
 
 @media screen and (max-width: 550px){
   .card {
-    width: 65%;
-  }
-
-  .form-control1 {
-    font-size: 10px;
-    padding: 12px;
+    width: 60%;
+    margin: 0 0;
   }
 }
 
